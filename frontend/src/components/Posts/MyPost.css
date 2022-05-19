@@ -1,0 +1,152 @@
+.postContainer {
+  display: flex;
+  border-radius: 7px;
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+textarea {
+  width: 50em;
+  height: 7em;
+}
+
+.postButton {
+  margin-left: 2em;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.postlist {
+  display: flex;
+  border: 1px black solid;
+  flex-direction: column;
+  border-radius: 7px;
+  width: 70%;
+  height: auto;
+  margin: auto;
+  justify-content: center;
+}
+
+.postbody {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em;
+  border-bottom: 1px solid black;
+  align-items: center;
+}
+
+.my-post-button {
+  background-color: transparent;
+  border: none;
+  color: steelblue;
+  font-size: 1rem;
+  font-family: inherit;
+  max-width: fit-content;
+  padding: 0.5rem 0.5rem;
+  margin-left: 4em;
+}
+
+.my-post-button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: steelblue;
+  border-radius: 12px;
+}
+
+.likeButton {
+  display: inline-block;
+  padding: 2px 5px 5px 5px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #3b4255;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 20px 20px;
+}
+.dislikeButton {
+  display: inline-block;
+  padding: 5px 5px 2px 5px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #424c68;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 20px 20px;
+}
+.likeButtonActive {
+  background-color: #39cc2c;
+  color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  display: inline-block;
+  padding: 2px 5px 5px 5px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  margin: 20px 20px;
+}
+.dislikeButtonActive {
+  background-color: #e22d15;
+  color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  display: inline-block;
+  padding: 5px 5px 2px 5px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  margin: 20px 20px;
+}
+
+.name-container {
+  margin-bottom: 2em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.body-container {
+  text-align: left;
+  margin-top: 0;
+}
+
+.post {
+  color: black !important;
+  text-transform: uppercase !important;
+  text-align: left;
+  font-size: 0.75rem;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.delete-post {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 12px;
+  margin-top: 2em;
+  width: 30%;
+  padding: 2em;
+  margin: auto;
+}
