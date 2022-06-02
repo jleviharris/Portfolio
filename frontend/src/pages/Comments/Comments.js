@@ -1,9 +1,9 @@
 import React, { useContext, useEffect, useState } from "react";
-import CreatePost from "../../components/Posts/createPosts";
-import DisplayPosts from "../../components/Posts/displayPosts";
+import CreateComment from "../../components/Comments/CreateComment";
+import DisplayComments from "../../components/Comments/DisplayComments";
 import AxiosPosts from "../../Routes/postRoutes";
 import ErrorBoundary from "../ErrorBoundary";
-import DisplaySinglePost from "../../components/Posts/displaySinglePost";
+
 
 const Comments = () => {
   const [postList, setPostList] = useState([]);
@@ -27,27 +27,16 @@ const Comments = () => {
   }
 
   return (
-    <div>
-      {hidden === false && (
+
         <div>
-          <CreatePost handleClick={handleClick} />
+          <CreateComment handleClick={handleClick} />
           <ErrorBoundary>
-            <DisplayPosts
-              postList={postList}
-              setHidden={setHidden}
-              setSinglePost={setSinglePost}
+            <DisplayComments
+             
             />
           </ErrorBoundary>
         </div>
-      )}
-      {hidden && (
-        <DisplaySinglePost
-          singlePost={singlePost}
-          setHidden={setHidden}
-          handleClick={handleClick}
-        />
-      )}
-    </div>
+   
   );
 };
 

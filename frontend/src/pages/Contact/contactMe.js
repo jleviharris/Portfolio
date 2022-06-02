@@ -3,32 +3,29 @@ import React from "react";
 const ContactMe = () => {
   return (
     <div className="contact" id="Contact">
-      <form className="form">
+      <form
+        className="form"
+        action="https://formspree.io/f/myyookvd"
+        method="POST"
+      >
         <h2 className="contact-title">Contact Me</h2>
-        <label className="form-text" for="fname">
-          First name:
-        </label>
+        <input type="hidden" name="_subject" value="Portfolio Email" />
+        <label className="form-text">Name:</label>
         <br />
-        <input type="text" id="fname" name="fname" value="John" />
+        <input type="text" name="name" placeholder="Name" required />
+        <label className="form-text">Email:</label>
         <br />
-        <label className="form-text" for="lname">
-          Last name:
-        </label>
+        <input type="email" name="email" placeholder="Email Address" />
+        <label className="form-text">Message:</label>
         <br />
-        <input type="text" id="lname" name="lname" value="Doe" />
-        <br />
-        <label className="form-text" for="email">
-          Enter your email:
-        </label>
-        <input type="email" id="email" name="email" />
-        <br />
-        <br />
-        <textarea
-          id="subject"
-          name="subject"
-          placeholder="Write something.."
-        ></textarea>
-        <input className="submit" type="submit" value="Submit" />
+        <input
+          type="text"
+          name="message"
+          placeholder="Write your message here"
+        />
+        <button id="submit" className="submit" type="submit">
+          Send
+        </button>
       </form>
     </div>
   );
