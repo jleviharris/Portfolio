@@ -4,13 +4,14 @@ const Joi = require("joi");
 const postSchema = mongoose.Schema({
   body: { type: String, minLength: 2, maxLength: 255, required: true },
   name: { type: String, required: true },
-  dateAdded: { type: Date, default: Date.now() },
+  time: { type: String, default: "" },
 });
 
 const validatePost = (post) => {
   const schema = Joi.object({
     body: Joi.string().min(2).max(255).required(),
     name: Joi.string().required(),
+    time: Joi.string(),
   });
   return schema.validate(post);
 };
