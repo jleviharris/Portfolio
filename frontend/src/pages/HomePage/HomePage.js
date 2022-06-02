@@ -1,7 +1,7 @@
 import React from "react";
 import AboutMe from "../../components/AboutMe/aboutMe";
 
-import ContactMe from "../../components/ContactMe/contactMe";
+import ContactMe from "../Contact/contactMe";
 
 const HomePage = () => {
   return (

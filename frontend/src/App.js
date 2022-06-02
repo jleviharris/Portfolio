@@ -14,6 +14,7 @@ import Projects from "./pages/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Navbar from "./components/NavBar/NavBar";
+import ContactMe from "./pages/Contact/contactMe";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/previousJobs" element={<PreviousJobs />} />
         <Route path="/personalLife" element={<PersonalLife />} />
         <Route path="/comments" element={<Comments />} />
+        <Route path="/contact" element={<ContactMe />} />
       </Routes>
       <Footer />
     </div>

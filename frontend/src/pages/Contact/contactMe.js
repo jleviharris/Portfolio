@@ -3,7 +3,7 @@ import React from "react";
 const ContactMe = () => {
   return (
     <div className="contact" id="Contact">
-      {/* <form className="form">
+      <form className="form">
         <h2 className="contact-title">Contact Me</h2>
         <label className="form-text" for="fname">
           First name:
@@ -29,7 +29,7 @@ const ContactMe = () => {
           placeholder="Write something.."
         ></textarea>
         <input className="submit" type="submit" value="Submit" />
-      </form> */}
+      </form>
     </div>
   );
 };

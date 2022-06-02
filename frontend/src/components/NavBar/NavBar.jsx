@@ -27,6 +27,9 @@ const Navbar = () => {
         <li>    
             <button onClick={() => navigate("/comments")}>Comments</button>  
         </li>
+        <li>    
+            <button onClick={() => navigate("/contact")}>Contact Me</button>  
+        </li>
         
       </ul>
     </div>
