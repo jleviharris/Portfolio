@@ -3,6 +3,7 @@ import ErrorBoundary from "../ErrorBoundary";
 import AxiosProjects from "../../Routes/projectsRoutes";
 import DisplayProjects from "../../components/Projects/displayProjects";
 import DisplaySingleProject from "../../components/Projects/displaySingleProject";
+import Project1 from "../../components/Projects/project1";
 
 const Projects = () => {
   const [projectList, setProjectList] = useState([]);
@@ -27,24 +28,7 @@ const Projects = () => {
 
   return (
     <div>
-      {hidden === false && (
-        <div>
-          <ErrorBoundary>
-            <DisplayProjects
-              projectList={projectList}
-              setHidden={setHidden}
-              setSingleProject={setSingleProject}
-            />
-          </ErrorBoundary>
-        </div>
-      )}
-      {hidden && (
-        <DisplaySingleProject
-          singleProject={singleProject}
-          setHidden={setHidden}
-          handleClick={handleClick}
-        />
-      )}
+      <Project1 />
     </div>
   );
 };
