@@ -4,6 +4,7 @@ import AxiosProjects from "../../Routes/projectsRoutes";
 import DisplayProjects from "../../components/Projects/displayProjects";
 import DisplaySingleProject from "../../components/Projects/displaySingleProject";
 import Project1 from "../../components/Projects/project1";
+import Project2 from "../../components/Projects/project2";
 
 const Projects = () => {
   const [projectList, setProjectList] = useState([]);
@@ -29,6 +30,7 @@ const Projects = () => {
   return (
     <div>
       <Project1 />
+      <Project2 />
     </div>
   );
 };
