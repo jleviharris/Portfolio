@@ -235,6 +235,13 @@ textarea {
   align-items: center;
   overflow-y: scroll;
   max-height: 100vh;
+  background: #53237278;
+  width: 50vw;
+ margin-left: 25%;
+ margin-right: 25%;
+ border-radius: 2rem;
+ border: 1px solid white;
+ 
 }
 .projectContainer{
   max-width: 55rem;
