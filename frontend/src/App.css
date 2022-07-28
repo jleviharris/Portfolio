@@ -73,7 +73,7 @@ html {
   justify-content: center;
   align-content: center;
 }
-li {
+.nav li {
   list-style: none;
   display: inline;
   margin-right: 1rem;
@@ -234,7 +234,7 @@ textarea {
   flex-direction: column;
   align-items: center;
   overflow-y: scroll;
-  max-height: 100vh;
+  max-height: 90vh;
   background: #53237278;
   width: 50vw;
  margin-left: 25%;
@@ -248,13 +248,23 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  background: #176e92ba;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 2rem;
 }
 .projectContainer h1{
   font-size: 5rem;
 }
 .projectContainer p{
   font-size: 3rem;
+}
+.projectContainer li{
+  list-style: none;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 .projectImg{
   max-width: -webkit-fill-available;
