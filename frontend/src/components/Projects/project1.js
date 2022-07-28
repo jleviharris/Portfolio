@@ -2,6 +2,7 @@ const Project1 = () => {
   return (
     <div className="projectContainer">
       <h1>Ashes To Vanity website</h1>
+      <p>Mobile and Desktop responsive website built for the band Ashes to Vanity. This was one of the first projects I started and Im still updating to this day. I built this website from scratch using HTML, CSS, and JavaScript. The site is currently hosted by Netlify.</p>
       <img className="projectImg" src={require("./imgProjects/AshesToVanity.png")} />
     </div>
   );

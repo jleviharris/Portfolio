@@ -253,6 +253,9 @@ textarea {
 .projectContainer h1{
   font-size: 5rem;
 }
+.projectContainer p{
+  font-size: 3rem;
+}
 .projectImg{
   max-width: -webkit-fill-available;
 }
