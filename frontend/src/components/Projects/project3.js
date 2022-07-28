@@ -1,8 +1,8 @@
 const Project3 = () => {
     return (
-      <div>
+      <div className="projectContainer">
         <h1>Portfolio Website</h1>
-        <img className="" src={require("./imgProjects/OriginalPortfolio.png")} />
+        <img className="projectImg" src={require("./imgProjects/OriginalPortfolio.png")} />
       </div>
     );
   };
