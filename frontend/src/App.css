@@ -236,14 +236,12 @@ textarea {
   overflow-y: scroll;
   max-height: 90vh;
   background: #53237278;
-  width: 50vw;
-  margin-left: 25%;
-  margin-right: 25%;
+  width: 100vw;
+
   border-radius: 2rem;
   border: 1px solid white;
 }
 .projectContainer {
-  max-width: 55rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -331,5 +329,9 @@ textarea {
     font-size: 3rem;
     margin-left: 15rem;
     margin-right: 15rem;
+  }
+  .websiteDisplay {
+    width: 90vw;
+    min-height: 75vh;
   }
 }

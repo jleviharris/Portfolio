@@ -1,19 +1,30 @@
 import React from "react";
-import Project1 from "../../components/Projects/project1";
-import Project2 from "../../components/Projects/project2";
-import Project3 from "../../components/Projects/project3";
-import Project4 from "../../components/Projects/project4";
+import { useNavigate } from "react-router-dom";
 
 const Projects = () => {
+  const navigate = useNavigate();
   return (
     <div className="projectsMainCard">
-      <Project1 />
-
-      <Project2 />
-
-      <Project3 />
-
-      <Project4 />
+      <ul>
+        <li>
+          <button onClick={() => navigate("/project1")}>
+            Ashes to Vanity Website
+          </button>
+        </li>
+        <li>
+          <button onClick={() => navigate("/project2")}>Sk8 Status</button>
+        </li>
+        <li>
+          <button onClick={() => navigate("/project3")}>
+            Portfolio Website
+          </button>
+        </li>
+        <li>
+          <button onClick={() => navigate("/project4")}>
+            Updated Portfolio with React
+          </button>
+        </li>
+      </ul>
     </div>
   );
 };
