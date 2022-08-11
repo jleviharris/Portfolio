@@ -8,7 +8,6 @@ const AboutMe = () => {
           alt="Headshot portfolio image"
           src={require("../AboutMe/20190119_142756.jpg")}
         />
-        <h2 className="about-me-title">About Me</h2>
       </div>
       <p className="about-me-text">
         {" "}

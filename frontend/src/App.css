@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  background-color: rgb(243, 213, 149);
 }
 
 .container-0 {
@@ -44,15 +45,14 @@ html {
   padding: 0.5rem;
 }
 .bodyImg {
-  background: url(../../backend/uploads/images/susan-wilkinson-DFIMvg9Rbvg-unsplash-2.jpg);
-  background-size: cover;
+  background-color: rgb(243, 213, 149);
 }
 
 * {
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: "Dosis", sans-serif;
-  color: #dfedd7;
+  color: black;
   font-weight: 300;
 }
 .about-me-title {
@@ -63,7 +63,7 @@ html {
   border-radius: 50%;
   max-height: 15rem;
   max-width: 15rem;
-  src: url(../../backend/uploads/images/20190119_142756.jpg);
+  src: url(../src/components/AboutMe/20190119_142756.jpg);
 }
 
 .about-me-header {
@@ -92,12 +92,12 @@ html {
   font-size: 4rem;
 }
 nav a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: large;
 }
 .heading-name {
-  border-bottom: white;
+  border-bottom: black;
   border-bottom: solid;
   border-bottom-width: 0.01rem;
   border-bottom-style: solid;
@@ -142,7 +142,7 @@ footer ul {
 }
 footer a {
   text-decoration: none;
-  color: white;
+  color: black;
   margin-right: 0.5rem;
   margin-left: 0.5rem;
   font-size: x-large;
@@ -229,7 +229,7 @@ textarea {
 .submit {
   font-size: large;
 }
-.projectsMainCard{
+.projectsMainCard {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -237,13 +237,12 @@ textarea {
   max-height: 90vh;
   background: #53237278;
   width: 50vw;
- margin-left: 25%;
- margin-right: 25%;
- border-radius: 2rem;
- border: 1px solid white;
- 
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 2rem;
+  border: 1px solid white;
 }
-.projectContainer{
+.projectContainer {
   max-width: 55rem;
   display: flex;
   flex-direction: column;
@@ -255,18 +254,18 @@ textarea {
   border: 1px solid black;
   border-radius: 2rem;
 }
-.projectContainer h1{
+.projectContainer h1 {
   font-size: 5rem;
 }
-.projectContainer p{
+.projectContainer p {
   font-size: 3rem;
 }
-.projectContainer li{
+.projectContainer li {
   list-style: none;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
-.projectImg{
+.projectImg {
   max-width: -webkit-fill-available;
 }
 @media only screen and (min-width: 600px) {
@@ -276,7 +275,7 @@ textarea {
   }
   .bodyImg {
     background-size: cover;
-    background: url(../../backend/uploads/images/pawel-czerwinski-vBc7xy65us8-unsplash.jpg);
+    background-color: rgb(243, 213, 149);
   }
 
   element.style {
@@ -290,7 +289,7 @@ textarea {
   }
   .bodyImg {
     background-size: cover;
-    background: url(../../backend/uploads/images/pawel-czerwinski-vBc7xy65us8-unsplash.jpg);
+    background-color: rgb(243, 213, 149);
   }
 
   .about-me-title {

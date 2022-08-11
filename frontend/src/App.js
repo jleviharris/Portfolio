@@ -7,7 +7,6 @@ import HomePage from "./pages/HomePage/HomePage";
 import Resume from "./pages/Resume/Resume";
 import PreviousJobs from "./pages/PreviousJobs/PreviousJobs";
 import PersonalLife from "./pages/PersonalLife/PersonalLife";
-import Comments from "./pages/Comments/Comments";
 import Projects from "./pages/Projects/Projects";
 
 // Component Imports
@@ -27,7 +26,6 @@ function App() {
         <Route path="/resume" element={<Resume />} />
         <Route path="/previousJobs" element={<PreviousJobs />} />
         <Route path="/personalLife" element={<PersonalLife />} />
-        <Route path="/comments" element={<Comments />} />
         <Route path="/contact" element={<ContactMe />} />
       </Routes>
       <Footer />
