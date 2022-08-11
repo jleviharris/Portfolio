@@ -334,4 +334,8 @@ textarea {
     width: 90vw;
     min-height: 75vh;
   }
+  .resumePreview {
+    width: 95vw;
+    height: 100vh;
+  }
 }

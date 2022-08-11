@@ -8,6 +8,7 @@ const Project1 = () => {
         updating to this day. I built this website from scratch using HTML, CSS,
         and JavaScript. The site is currently hosted by Netlify.
       </p>
+      <p>Technologies used: JavaScript, HTML, CSS</p>
       {/* <img className="projectImg" src={require("./imgProjects/AshesToVanity.png")} /> */}
       <iframe
         src="https://ashestovanity.netlify.app/"
