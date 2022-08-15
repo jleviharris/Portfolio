@@ -1,6 +1,11 @@
+import { useNavigate } from "react-router-dom";
 const Project1 = () => {
+  const navigate = useNavigate();
   return (
     <div className="projectContainer">
+      <button className="backButton" onClick={() => navigate("/projects")}>
+        BACK
+      </button>
       <h1>Ashes To Vanity website</h1>
       <p>
         Mobile and Desktop responsive website built for the band Ashes to

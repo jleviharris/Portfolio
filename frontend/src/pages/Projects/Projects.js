@@ -5,26 +5,50 @@ const Projects = () => {
   const navigate = useNavigate();
   return (
     <div className="projectsMainCard">
-      <ul>
-        <li>
-          <button onClick={() => navigate("/project1")}>
-            Ashes to Vanity Website
-          </button>
-        </li>
-        <li>
-          <button onClick={() => navigate("/project2")}>Sk8 Status</button>
-        </li>
-        <li>
-          <button onClick={() => navigate("/project3")}>
-            Portfolio Website
-          </button>
-        </li>
-        <li>
-          <button onClick={() => navigate("/project4")}>
-            Updated Portfolio with React
-          </button>
-        </li>
-      </ul>
+      {/* <div className="projectLists"> */}
+      <div className="singleProject">
+        <button onClick={() => navigate("/project1")}>
+          <p>Ashes to Vanity Website</p>{" "}
+          <img
+            className="projectImg"
+            src={require("../../components/Projects/imgProjects/AshesToVanity.png")}
+          />
+        </button>
+      </div>
+
+      <div className="singleProject">
+        {" "}
+        <button onClick={() => navigate("/project2")}>
+          <p>Sk8 Status</p>
+          <img
+            className="projectImg"
+            src={require("../../components/Projects/imgProjects/Sk8Status.png")}
+          />
+        </button>
+      </div>
+      {/* </div> */}
+
+      <div className="singleProject">
+        {" "}
+        <button onClick={() => navigate("/project3")}>
+          <p>Portfolio Website</p>{" "}
+          <img
+            className="projectImg"
+            src={require("../../components/Projects/imgProjects/OriginalPortfolio.png")}
+          />
+        </button>
+      </div>
+
+      <div className="singleProject">
+        {" "}
+        <button onClick={() => navigate("/project4")}>
+          <p>Updated Portfolio with React</p>{" "}
+          <img
+            className="projectImg"
+            src={require("../../components/Projects/imgProjects/CurrentPortfolio.png")}
+          />
+        </button>
+      </div>
     </div>
   );
 };

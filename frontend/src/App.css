@@ -3,7 +3,7 @@
 html {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  background-color: rgb(243, 213, 149);
+  background-color: rgb(141, 206, 236);
 }
 
 .container-0 {
@@ -14,10 +14,10 @@ html {
 }
 
 .form {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   gap: 1rem;
 }
 
@@ -45,7 +45,7 @@ html {
   padding: 0.5rem;
 }
 .bodyImg {
-  background-color: rgb(243, 213, 149);
+  background-color: rgb(141, 206, 236);
 }
 
 * {
@@ -231,22 +231,40 @@ textarea {
 }
 .projectsMainCard {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow-y: scroll;
+  overflow-x: scroll;
   max-height: 90vh;
   background: #53237278;
-  width: 100vw;
-
-  border-radius: 2rem;
+  border-radius: 1rem;
   border: 1px solid white;
+  background-color: white;
+  align-items: flex-start;
 }
+.video {
+  margin-top: 0;
+  width: 500px;
+  height: 500px;
+}
+
+.singleProject {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin: 2rem;
+}
+.backButton {
+  align-self: flex-start;
+}
+.projectLists {
+  display: flex;
+  flex-direction: column;
+}
+
 .projectContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+
+  margin: 2.5rem;
   background: #176e92ba;
   padding: 1rem;
   border: 1px solid black;
@@ -264,7 +282,9 @@ textarea {
   margin-bottom: 1rem;
 }
 .projectImg {
-  max-width: -webkit-fill-available;
+  max-width: 300px;
+  height: auto;
+  padding: 2rem;
 }
 @media only screen and (min-width: 600px) {
   .body {
@@ -273,7 +293,7 @@ textarea {
   }
   .bodyImg {
     background-size: cover;
-    background-color: rgb(243, 213, 149);
+    background-color: rgb(141, 206, 236);
   }
 
   element.style {
@@ -287,7 +307,7 @@ textarea {
   }
   .bodyImg {
     background-size: cover;
-    background-color: rgb(243, 213, 149);
+    background-color: rgb(141, 206, 236);
   }
 
   .about-me-title {
@@ -296,8 +316,6 @@ textarea {
   .about-me-img {
     max-height: 25rem;
     max-width: 25rem;
-    margin-bottom: 10rem;
-    margin-top: 5rem;
   }
   .heading-name {
     font-size: 5rem;
