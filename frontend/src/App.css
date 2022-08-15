@@ -3,7 +3,7 @@
 html {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  background-color: rgb(141, 206, 236);
+  background-color: white;
 }
 
 .container-0 {
@@ -45,7 +45,7 @@ html {
   padding: 0.5rem;
 }
 .bodyImg {
-  background-color: rgb(141, 206, 236);
+  background-color: white;
 }
 
 * {
@@ -119,28 +119,34 @@ nav a {
   font-size: 1.8rem;
 }
 .footer {
-  text-align: center;
+  /* 
   margin-top: auto;
   /* position: absolute; */
-  left: 0;
+  /* left: 0;
   bottom: 0;
   right: 0;
   position: fixed;
-  bottom: 0;
+  bottom: 0; */
   width: 100%;
+  font-size: 3rem;
+  text-align: center;
+  color: black;
 }
-footer a :hover {
+.footer a :hover {
   color: rgba(170, 235, 243, 0.952);
   background-color: transparent;
-  transition: background-color 0.15s, font-size 0.15s;
-  font-size: 3rem;
+  transition: background-color 0.15s;
 }
-footer ul {
+.footer ul {
   padding-left: 0;
   margin: 0.5rem;
   margin-bottom: 1.5rem;
 }
-footer a {
+.footer li {
+  display: inline;
+}
+
+.footer a {
   text-decoration: none;
   color: black;
   margin-right: 0.5rem;
@@ -234,8 +240,7 @@ textarea {
   overflow-x: scroll;
   max-height: 90vh;
   background: #53237278;
-  border-radius: 1rem;
-  border: 1px solid white;
+  border: 1px solid rgb(0 0 0 / 80%);
   background-color: white;
   align-items: flex-start;
 }
@@ -248,8 +253,10 @@ textarea {
 .singleProject {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
   margin: 2rem;
+}
+.singleProject :hover {
+  cursor: pointer;
 }
 .backButton {
   align-self: flex-start;
@@ -282,9 +289,21 @@ textarea {
   margin-bottom: 1rem;
 }
 .projectImg {
-  max-width: 300px;
+  max-height: 75vh;
   height: auto;
   padding: 2rem;
+}
+.projectButton {
+  border: 1px solid black;
+  border-radius: 25px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.projectHeader {
+  font-size: 2rem;
+  padding-left: 2rem;
 }
 @media only screen and (min-width: 600px) {
   .body {
@@ -293,7 +312,7 @@ textarea {
   }
   .bodyImg {
     background-size: cover;
-    background-color: rgb(141, 206, 236);
+    background-color: white;
   }
 
   element.style {
@@ -307,7 +326,7 @@ textarea {
   }
   .bodyImg {
     background-size: cover;
-    background-color: rgb(141, 206, 236);
+    background-color: white;
   }
 
   .about-me-title {

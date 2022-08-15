@@ -6,7 +6,7 @@ const Project1 = () => {
       <button className="backButton" onClick={() => navigate("/projects")}>
         BACK
       </button>
-      <h1>Ashes To Vanity website</h1>
+      <h1 >Ashes To Vanity website</h1>
       <p>
         Mobile and Desktop responsive website built for the band Ashes to
         Vanity. This was one of the first projects I started and Im still
