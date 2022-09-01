@@ -16,6 +16,7 @@ import Project1 from "./components/Projects/project1";
 import Project2 from "./components/Projects/project2";
 import Project3 from "./components/Projects/project3";
 import Project4 from "./components/Projects/project4";
+import Project5 from "./components/Projects/project5";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/project2" element={<Project2 />} />
         <Route path="/project3" element={<Project3 />} />
         <Route path="/project4" element={<Project4 />} />
+        <Route path="/project5" element={<Project5 />} />
       </Routes>
     </div>
   );

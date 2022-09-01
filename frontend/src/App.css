@@ -369,7 +369,7 @@ textarea {
   }
   .websiteDisplay {
     width: 90vw;
-    min-height: 75vh;
+    height: 100vh;
   }
   .resumePreview {
     width: 95vw;
