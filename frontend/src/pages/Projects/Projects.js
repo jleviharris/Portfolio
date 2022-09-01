@@ -35,6 +35,19 @@ const Projects = () => {
           </button>
         </div>
         {/* </div> */}
+        <div className="singleProject">
+          {" "}
+          <button
+            className="projectButton"
+            onClick={() => navigate("/project5")}
+          >
+            <h2 className="projectHeader">Conway's Game of Life</h2>{" "}
+            <img
+              className="projectImg"
+              src={require("../../components/Projects/imgProjects/GameOfLife.png")}
+            />
+          </button>
+        </div>
 
         <div className="singleProject">
           {" "}
@@ -60,19 +73,6 @@ const Projects = () => {
             <img
               className="projectImg"
               src={require("../../components/Projects/imgProjects/CurrentPortfolio.png")}
-            />
-          </button>
-        </div>
-        <div className="singleProject">
-          {" "}
-          <button
-            className="projectButton"
-            onClick={() => navigate("/project5")}
-          >
-            <h2 className="projectHeader">Conway's Game of Life</h2>{" "}
-            <img
-              className="projectImg"
-              src={require("../../components/Projects/imgProjects/GameOfLife.png")}
             />
           </button>
         </div>
