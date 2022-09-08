@@ -21,8 +21,8 @@ import Project5 from "./components/Projects/project5";
 function App() {
   return (
     <div className="bodyImg">
-      <Header />
-      <Navbar />
+      {/* <Header />
+      <Navbar /> */}
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<Projects />} />

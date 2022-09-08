@@ -5,7 +5,7 @@
 
 .navBar {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   color: black;
   margin-bottom: 2rem;
   padding: 1.5rem 2rem;
@@ -13,6 +13,7 @@
 
 .navBar ul {
   display: flex;
+  flex-direction: column;
   padding: 1em;
 }
 
@@ -23,7 +24,7 @@
 .navBar button {
   background: rgba(246, 246, 247, 0);
   border: none;
-  color: black;
+  color: white;
   padding: 0.4rem 0.5rem;
   padding: 0px 20px;
 }
