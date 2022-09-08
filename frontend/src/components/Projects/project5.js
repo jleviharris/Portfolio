@@ -19,8 +19,8 @@ const Project5 = () => {
       </p>
       <p>Technologies used: React.js, Node.js, JavaScript, HTML, CSS</p>
       <p>
-        * Project deployed using Heroku, if loading for the first time please
-        allow a few seconds for the dyno to wake back up{" "}
+        * Project deployed using Heroku, may take up to 30 seconds for the dyno
+        to wake back up if loading for the first time{" "}
       </p>
       <iframe
         src="https://devjleviharrisgameoflife.herokuapp.com/"
