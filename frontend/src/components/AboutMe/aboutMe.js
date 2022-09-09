@@ -14,13 +14,13 @@ const AboutMe = () => {
           src={require("../AboutMe/20190119_142756.jpg")}
         />
       </div>
-      <p className="about-me-text">
+      <div className="about-me-text">
         {" "}
-        Software Developer located in Delaware.
+        Software Developer located in Delaware
         <br />
-        <br /> United States Marine Corps{" "}
-        <i class="fa-solid fa-arrow-right"></i> Planet Fitness General Manager{" "}
-        <i class="fa-solid fa-arrow-right"></i> Software Developer
+        <br /> United States Marine Corps <i class="fa-solid fa-arrow-down"></i>{" "}
+        Planet Fitness General Manager <i class="fa-solid fa-arrow-down"></i>{" "}
+        Software Developer
         <br />
         <br /> Driven, hard-working, problem solver with a high attention to
         detail.
@@ -28,7 +28,7 @@ const AboutMe = () => {
         <br /> Currently working with the MERN stack. Proficient with HTML, CSS,
         JavaScript, MongoDB, Express, React, Node.js, Postman, Git, and Github.
         Open to learning new Technologies.
-      </p>
+      </div>
     </div>
   );
 };
