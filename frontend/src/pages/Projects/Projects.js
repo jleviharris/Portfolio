@@ -5,7 +5,7 @@ import Footer from "../../components/Footer/Footer";
 const Projects = () => {
   const navigate = useNavigate();
   return (
-    <div>
+    <div className="projectsPage">
       <button className="backButton" onClick={() => navigate("/")}>
         BACK
       </button>

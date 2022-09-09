@@ -21,10 +21,12 @@ html {
 .homePageDiv h1 {
   font-size: 7rem;
   margin-left: 6rem;
+  margin-top: 2rem;
 }
 .homePageDiv h2 {
   font-size: 4rem;
   margin-left: 6rem;
+  margin-bottom: 1rem;
 }
 
 .container-0 {
@@ -161,9 +163,8 @@ nav a {
   position: fixed;
   bottom: 0; */
   width: 100%;
-  font-size: 3rem;
+  font-size: 5rem;
   text-align: center;
-  color: black;
 }
 .footer a :hover {
   color: rgba(170, 235, 243, 0.952);
@@ -181,10 +182,10 @@ nav a {
 
 .footer a {
   text-decoration: none;
-  color: black;
-  margin-right: 0.5rem;
-  margin-left: 0.5rem;
-  font-size: x-large;
+  color: white;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  font-size: 4rem;
 }
 .projects-title {
   text-align: center;
@@ -298,7 +299,19 @@ textarea {
   color: black;
   font-size: 2rem;
   margin-right: 3rem;
+  background-color: rgba(128, 126, 117, 0.795);
+  color: white;
+  border-radius: 2rem;
 }
+.backButton:hover {
+  background-color: white;
+  color: black;
+}
+.projectsPage {
+  display: flex;
+  flex-direction: column;
+}
+
 .projectLists {
   display: flex;
   flex-direction: column;

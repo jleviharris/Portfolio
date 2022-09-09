@@ -11,8 +11,7 @@ const HomePage = () => {
         <h2>Software Developer</h2>
       </div>
       <Navbar />
-      {/* <AboutMe />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 };
