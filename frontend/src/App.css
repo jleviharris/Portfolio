@@ -191,6 +191,12 @@ nav a {
   text-align: center;
   font-size: large;
 }
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
 .contact-title {
   text-align: center;
   font-size: large;
