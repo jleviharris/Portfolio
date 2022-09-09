@@ -1,12 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Kanit:wght@200&display=swap");
 
 html {
   box-sizing: border-box;
-  /* font-family: "Abril Fatface", cursive; */
-  /* font-family:  "Poppins", sans-serif; */
-  font-family: "Staatliches", cursive;
   background-color: black;
 }
 .homePageDiv {
@@ -19,14 +14,20 @@ html {
   justify-content: space-between;
 }
 .homePageDiv h1 {
-  font-size: 7rem;
-  margin-left: 6rem;
-  margin-top: 2rem;
-}
-.homePageDiv h2 {
   font-size: 4rem;
   margin-left: 6rem;
+  margin-top: 2rem;
+  /* font-family: "Staatliches", cursive; */
+  /* font-family: "Oxygen", sans-serif; */
+  /* font-family: "Secular One", sans-serif; */
+  font-family: "Kanit", sans-serif;
+}
+.homePageDiv h2 {
+  font-size: 3rem;
+  margin-left: 6rem;
   margin-bottom: 1rem;
+  /* color: #c4b7b2; */
+  color: white;
 }
 
 .container-0 {
@@ -37,7 +38,7 @@ html {
 }
 
 .form {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   flex-direction: column;
   /* justify-content: flex-end; */
@@ -68,15 +69,14 @@ html {
   padding: 0.5rem;
 }
 .bodyImg {
-  background-image: url("../src/components/BackgroundImgs/editors-keys-CtDrd7mWW6M-unsplash.jpg");
+  background-color: black;
 }
 
 * {
   box-sizing: border-box;
   font-size: 62.5%;
-  /* font-family: "Dosis", sans-serif; */
-  /* font-family: "Abril Fatface", cursive; */
-  font-family: "Staatliches", cursive;
+  font-family: "Jura", sans-serif;
+
   color: white;
   font-weight: 300;
 }
@@ -196,6 +196,9 @@ nav a {
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+  /* background-image: url("../src/components/BackgroundImgs/good-free-photos-bfempytLlJI-unsplash.jpg"); */
+  /* background-size: cover; */
+  background-color: black;
 }
 .contact-title {
   text-align: center;
@@ -213,6 +216,7 @@ nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: black;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -222,7 +226,6 @@ nav a {
 }
 
 .form {
-  width: 90%;
   color: black;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -232,7 +235,7 @@ nav a {
 input[type="text"],
 input[type="email"],
 select {
-  width: 100%;
+  width: 25%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -241,6 +244,18 @@ select {
   box-sizing: border-box;
   color: black;
   font-size: medium;
+}
+#message {
+  width: 25%;
+
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: black;
+  font-size: large;
 }
 /* Style the submit button */
 input[type="submit"] {
@@ -274,6 +289,10 @@ textarea {
 }
 .submit {
   font-size: large;
+  background-color: #6b6963;
+}
+.submit:hover {
+  background-color: #45c258;
 }
 .projectsMainCard {
   display: flex;
@@ -281,7 +300,7 @@ textarea {
   max-height: 90vh;
   background: #53237278;
   border: 1px solid rgb(0 0 0 / 80%);
-  background-color: white;
+  background-color: black;
   align-items: flex-start;
 }
 .video {
@@ -302,7 +321,6 @@ textarea {
   align-self: flex-end;
   width: 8rem;
   height: 3rem;
-  color: black;
   font-size: 2rem;
   margin-right: 3rem;
   background-color: rgba(128, 126, 117, 0.795);
@@ -316,6 +334,7 @@ textarea {
 .projectsPage {
   display: flex;
   flex-direction: column;
+  background-color: black;
 }
 
 .projectLists {
@@ -329,7 +348,9 @@ textarea {
   align-items: center;
 
   margin: 2.5rem;
-  background: #176e92ba;
+  /* background: #176e92ba; */
+  /* background: #4e4b4bba; */
+  background: black;
   padding: 1rem;
   border: 1px solid black;
   border-radius: 2rem;
@@ -352,16 +373,25 @@ textarea {
 }
 .projectButton {
   border: 1px solid black;
+  font-size: 2rem;
   border-radius: 25px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  background-color: #66645d;
+  color: white;
+  padding: 2rem;
+}
+.projectButton:hover {
+  border: 1px solid black;
+  border-radius: 25px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: white;
+  color: black;
 }
 
-.projectHeader {
-  font-size: 2rem;
-  padding-left: 2rem;
-}
 @media only screen and (min-width: 600px) {
   .body {
     width: 100%;
@@ -369,7 +399,7 @@ textarea {
   }
   .bodyImg {
     background-size: cover;
-    background-color: white;
+    background-color: black;
   }
 
   element.style {
@@ -383,7 +413,7 @@ textarea {
   }
   .bodyImg {
     background-size: cover;
-    background-color: white;
+    background-color: black;
   }
 
   .about-me-title {
@@ -429,7 +459,8 @@ textarea {
     height: 100vh;
   }
   .resumePreview {
-    width: 95vw;
+    width: 70vw;
     height: 100vh;
+    margin-top: 1rem;
   }
 }

@@ -11,16 +11,16 @@ const Navbar = () => {
     <div className="navBar">
       <ul>
         <li>
-          <button onClick={() => navigate("/aboutMe")}>About Me</button>
+          <button onClick={() => navigate("/aboutMe")}>about me</button>
         </li>
         <li>
-          <button onClick={() => navigate("/projects")}>Projects</button>
+          <button onClick={() => navigate("/projects")}>projects</button>
         </li>
         <li>
-          <button onClick={() => navigate("/resume")}>Resume</button>
+          <button onClick={() => navigate("/resume")}>resume</button>
         </li>
         <li>
-          <button onClick={() => navigate("/contact")}>Contact Me</button>
+          <button onClick={() => navigate("/contact")}>contact me</button>
         </li>
       </ul>
     </div>

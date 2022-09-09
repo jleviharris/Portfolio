@@ -10,13 +10,12 @@ const Projects = () => {
         BACK
       </button>
       <div className="projectsMainCard">
-        {/* <div className="projectLists"> */}
         <div className="singleProject">
           <button
             className="projectButton"
             onClick={() => navigate("/project1")}
           >
-            <h2 className="projectHeader">Ashes to Vanity Website</h2>{" "}
+            Ashes to Vanity Website
             <img
               className="projectImg"
               src={require("../../components/Projects/imgProjects/AshesToVanity.png")}
@@ -30,21 +29,20 @@ const Projects = () => {
             className="projectButton"
             onClick={() => navigate("/project2")}
           >
-            <h2 className="projectHeader">Sk8 Status</h2>
+            Sk8 Status
             <img
               className="projectImg"
               src={require("../../components/Projects/imgProjects/Sk8Status.png")}
             />
           </button>
         </div>
-        {/* </div> */}
         <div className="singleProject">
           {" "}
           <button
             className="projectButton"
             onClick={() => navigate("/project5")}
           >
-            <h2 className="projectHeader">Conway's Game of Life</h2>{" "}
+            Conway's Game of Life
             <img
               className="projectImg"
               src={require("../../components/Projects/imgProjects/GameOfLife.png")}
@@ -58,7 +56,7 @@ const Projects = () => {
             className="projectButton"
             onClick={() => navigate("/project3")}
           >
-            <h2 className="projectHeader">Portfolio Website</h2>{" "}
+            Portfolio Website
             <img
               className="projectImg"
               src={require("../../components/Projects/imgProjects/OriginalPortfolio.png")}
@@ -72,7 +70,7 @@ const Projects = () => {
             className="projectButton"
             onClick={() => navigate("/project4")}
           >
-            <h2 className="projectHeader">Updated Portfolio with React</h2>{" "}
+            Updated Portfolio with React
             <img
               className="projectImg"
               src={require("../../components/Projects/imgProjects/CurrentPortfolio.png")}

@@ -1,5 +1,5 @@
 .navBar li {
-  font-size: 6rem;
+  font-size: 3.5rem;
   list-style: none;
 }
 
@@ -17,21 +17,23 @@
 }
 
 .navBar ul li {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .navBar button {
   background: rgba(246, 246, 247, 0);
   border: none;
-  color: white;
+  /* color: white; */
   padding: 0.4rem 0.5rem;
   padding: 0px 20px;
+  color: #c4b7b2;
 }
 
 .navBar button:hover {
   /* background: steelblue;
   color: rgb(255, 255, 255); */
-  background: white;
+  /* background: white; */
+  background: #c4b7b2;
   color: black;
   cursor: pointer;
   border-radius: 12px;
