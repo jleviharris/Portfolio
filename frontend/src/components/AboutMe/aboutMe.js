@@ -1,6 +1,11 @@
+import { useNavigate } from "react-router-dom";
 const AboutMe = () => {
+  const navigate = useNavigate();
   return (
     <div className="about-me-section" id="About">
+      <button className="backButton" onClick={() => navigate("/")}>
+        BACK
+      </button>
       <div className="about-me-header">
         <img
           id="Headshot"
@@ -13,7 +18,7 @@ const AboutMe = () => {
         {" "}
         Software Developer located in Delaware.
         <br />
-        <br /> United States Marine Corps Sergeant{" "}
+        <br /> United States Marine Corps{" "}
         <i class="fa-solid fa-arrow-right"></i> Planet Fitness General Manager{" "}
         <i class="fa-solid fa-arrow-right"></i> Software Developer
         <br />

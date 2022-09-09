@@ -6,6 +6,9 @@ const Projects = () => {
   const navigate = useNavigate();
   return (
     <div>
+      <button className="backButton" onClick={() => navigate("/")}>
+        BACK
+      </button>
       <div className="projectsMainCard">
         {/* <div className="projectLists"> */}
         <div className="singleProject">
