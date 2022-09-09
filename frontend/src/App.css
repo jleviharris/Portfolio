@@ -1,13 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 
 html {
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Abril Fatface", cursive; */
+  /* font-family:  "Poppins", sans-serif; */
+  font-family: "Staatliches", cursive;
   background-color: black;
 }
 .homePageDiv {
   background-image: url("../src/components/BackgroundImgs/tobias-roder-bZSapOQA_OU-unsplash.jpg");
-  background-size: contain;
+  background-size: cover;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -15,12 +19,12 @@ html {
   justify-content: space-between;
 }
 .homePageDiv h1 {
-  font-size: 6rem;
-  margin-left: 2rem;
+  font-size: 7rem;
+  margin-left: 6rem;
 }
 .homePageDiv h2 {
   font-size: 4rem;
-  margin-left: 2rem;
+  margin-left: 6rem;
 }
 
 .container-0 {
@@ -68,7 +72,9 @@ html {
 * {
   box-sizing: border-box;
   font-size: 62.5%;
-  font-family: "Dosis", sans-serif;
+  /* font-family: "Dosis", sans-serif; */
+  /* font-family: "Abril Fatface", cursive; */
+  font-family: "Staatliches", cursive;
   color: white;
   font-weight: 300;
 }
@@ -102,12 +108,12 @@ html {
   width: 100%;
 }
 
-.nav li :hover {
+/* .nav li :hover {
   color: rgba(170, 235, 243, 0.952);
   background-color: transparent;
   transition: background-color 0.15s, font-size 0.15s;
   font-size: 4rem;
-}
+} */
 nav a {
   color: black;
   text-decoration: none;

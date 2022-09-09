@@ -13,8 +13,9 @@ const AboutMe = () => {
         {" "}
         Software Developer located in Delaware.
         <br />
-        <br /> USMC <i class="fa-solid fa-arrow-right"></i> Planet Fitness
-        Manager <i class="fa-solid fa-arrow-right"></i> Software Developer
+        <br /> United States Marine Corps Sergeant{" "}
+        <i class="fa-solid fa-arrow-right"></i> Planet Fitness General Manager{" "}
+        <i class="fa-solid fa-arrow-right"></i> Software Developer
         <br />
         <br /> Driven, hard-working, problem solver with a high attention to
         detail.

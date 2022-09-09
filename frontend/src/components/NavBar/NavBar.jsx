@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="navBar">
       <ul>
         <li>
-          <button onClick={() => navigate("/")}>Home</button>
+          <button onClick={() => navigate("/aboutMe")}>About Me</button>
         </li>
         <li>
           <button onClick={() => navigate("/projects")}>Projects</button>

@@ -11,6 +11,7 @@ import Projects from "./pages/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Navbar from "./components/NavBar/NavBar";
+import AboutMe from "./components/AboutMe/aboutMe";
 import ContactMe from "./pages/Contact/contactMe";
 import Project1 from "./components/Projects/project1";
 import Project2 from "./components/Projects/project2";
@@ -25,6 +26,7 @@ function App() {
       <Navbar /> */}
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/aboutMe" element={<AboutMe />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<ContactMe />} />
