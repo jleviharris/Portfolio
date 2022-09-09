@@ -16,8 +16,6 @@ const AboutMe = () => {
       </div>
       <div className="about-me-text">
         {" "}
-        Software Developer located in Delaware
-        <br />
         <br /> United States Marine Corps <i class="fa-solid fa-arrow-down"></i>{" "}
         Planet Fitness General Manager <i class="fa-solid fa-arrow-down"></i>{" "}
         Software Developer

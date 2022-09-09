@@ -78,6 +78,12 @@ html {
   color: white;
   font-weight: 300;
 }
+.about-me-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
+}
 .about-me-title {
   font-size: x-large;
   align-self: center;
@@ -286,7 +292,12 @@ textarea {
   cursor: pointer;
 }
 .backButton {
-  align-self: flex-start;
+  align-self: flex-end;
+  width: 8rem;
+  height: 3rem;
+  color: black;
+  font-size: 2rem;
+  margin-right: 3rem;
 }
 .projectLists {
   display: flex;
