@@ -84,7 +84,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .about-me-title {
   font-size: x-large;
@@ -103,6 +103,40 @@ html {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+}
+.icons {
+  font-size: 5.5rem;
+  margin: 1rem;
+}
+.allIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.iconsRow {
+  display: flex;
+  flex-direction: row;
+}
+.singleTech {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  margin: 3rem;
+  align-items: center;
+}
+.middleTech {
+  display: flex;
+  font-size: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-me-history {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
 }
 .nav li {
   list-style: none;
@@ -369,7 +403,7 @@ textarea {
 .projectImg {
   max-height: 75vh;
   height: auto;
-  padding: 2rem;
+  padding: 1rem;
 }
 .projectButton {
   border: 1px solid black;
@@ -380,7 +414,7 @@ textarea {
   flex-direction: column;
   background-color: #66645d;
   color: white;
-  padding: 2rem;
+  padding: 1rem;
 }
 .projectButton:hover {
   border: 1px solid black;

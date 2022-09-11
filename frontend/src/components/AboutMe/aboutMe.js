@@ -15,18 +15,60 @@ const AboutMe = () => {
         />
       </div>
       <div className="about-me-text">
-        {" "}
-        <br /> United States Marine Corps <i class="fa-solid fa-arrow-down"></i>{" "}
-        Planet Fitness General Manager <i class="fa-solid fa-arrow-down"></i>{" "}
-        Software Developer
-        <br />
-        <br /> Driven, hard-working, problem solver with a high attention to
-        detail.
-        <br />
-        <br /> Currently working with the MERN stack. Proficient with HTML, CSS,
-        JavaScript, MongoDB, Express, React, Node.js, Postman, Git, and Github.
-        Open to learning new Technologies.
+        <div className="about-me-history">
+          United States Marine Corps
+          <i className="fa-solid fa-arrow-down"></i>
+          Planet Fitness General Manager
+          <i className="fa-solid fa-arrow-down"></i>
+          Software Developer
+        </div>
+        <div></div>
+        <div className="allIcons">
+          <div className="iconsRow">
+            <div className="singleTech">
+              <i className="fa-brands fa-html5 icons"></i>HTML
+            </div>
+            <div className="singleTech">
+              <i className="fa-brands fa-css3-alt icons"></i>CSS
+            </div>{" "}
+            <div className="singleTech">
+              <i className="fa-brands fa-square-js icons"></i>JavaScript
+            </div>
+          </div>
+          <div className="iconsRow">
+            <div className="singleTech">
+              <iconify-icon
+                icon="simple-icons:mongodb"
+                class="icons"
+              ></iconify-icon>
+              MongoDB
+            </div>
+            <div className="middleTech">
+              Open to learning
+              <br /> new Technologies
+            </div>
+            <div className="singleTech">
+              <iconify-icon
+                icon="simple-icons:express"
+                class="icons"
+              ></iconify-icon>
+              Express.js
+            </div>
+          </div>
+          <div className="iconsRow">
+            <div className="singleTech">
+              <i className="fa-brands fa-react icons"></i>React.js
+            </div>
+            <div className="singleTech">
+              <i className="fa-brands fa-node icons"></i>Node.js
+            </div>
+            <div className="singleTech">
+              <i className="fa-brands fa-github icons"></i> Github
+            </div>
+          </div>
+        </div>
       </div>
+      <div></div>
     </div>
   );
 };
