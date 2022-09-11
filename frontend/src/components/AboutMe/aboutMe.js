@@ -25,7 +25,7 @@ const AboutMe = () => {
         <div className="about-me-para">
           I'm Jonathan, a full stack web developer working in the MERN stack. My
           experiance ranges from Combat Engineer in the Marine Corps to GM of a
-          franchise Planet Fitness and now to software developer. My coding
+          franchise Planet Fitness and now to Software Developer. My coding
           journey began in late 2021 with the discovery of freeCodeCamp and
           codecademy. By Feb 2022 I was enrolled with the coding bootcamp
           devCodeCamp and I had graduted by the end of May. Now I am searching

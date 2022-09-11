@@ -16,10 +16,9 @@ const Project3 = () => {
           <i className="fa-brands fa-github gitHubProjLink"></i>
         </a>
       </h1>
-      <p>
-        Mobile and desktop responsive portfolio website built using HTML, CSS,
-        JavaScript and Github pages
-      </p>
+      <p>Technologies used: HTML, CSS, JavaScript, GitHub, GitHub Pages</p>
+      <p>Mobile and desktop responsive portfolio website</p>
+
       {/* <img className="projectImg" src={require("./imgProjects/OriginalPortfolio.png")} /> */}
       <iframe
         src="https://jleviharris.github.io/devCodeCampPortfolio/"

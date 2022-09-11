@@ -14,15 +14,16 @@ const Project2 = () => {
         </a>
       </h1>
       <p>
-        Sk8 Status is a full stack web application that I developed during a 14
-        day sprint for my capstone project while at devCodeCamp. The application
-        was designed for skateboarders to connect with one another.
-      </p>
-      <p>
         Technologies used: JavaScript, React.js, Express.js, Node.js, MongoDB,
         HTML, CSS, Mongoose, Postman, Git, Google Maps API, Axios, JSON Web
         Token, Bootstrap
       </p>
+      <p>
+        Sk8 Status is a full stack web application that I developed during a 14
+        day sprint for my capstone project while at devCodeCamp. The application
+        was designed for skateboarders to connect with one another.
+      </p>
+
       <p>Application features include:</p>
       <ul>
         <li>
@@ -46,7 +47,6 @@ const Project2 = () => {
         </li>
       </ul>
       <div className="videoDiv" id="videoDiv">
-        <h2 className="video-title">Capstone Project Video</h2>
         <video className="video" controls="controls">
           <source
             src={require("../../components/Projects/Videos/CapstoneVideo.mp4")}

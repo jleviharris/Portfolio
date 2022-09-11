@@ -15,14 +15,14 @@ const Project1 = () => {
           <i className="fa-brands fa-github gitHubProjLink"></i>
         </a>
       </h1>
+      <p>Technologies used: JavaScript, HTML, CSS, GitHub, Netlify</p>
 
       <p>
         Mobile and Desktop responsive website built for the band Ashes to
         Vanity. This was one of the first projects I started and Im still
-        updating to this day. I built this website from scratch using HTML, CSS,
-        and JavaScript. The site is currently hosted by Netlify.
+        updating to this day.
       </p>
-      <p>Technologies used: JavaScript, HTML, CSS</p>
+
       {/* <img className="projectImg" src={require("./imgProjects/AshesToVanity.png")} /> */}
       <iframe
         src="https://ashestovanity.netlify.app/"

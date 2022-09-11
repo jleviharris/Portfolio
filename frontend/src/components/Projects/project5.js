@@ -13,6 +13,10 @@ const Project5 = () => {
         </a>
       </h1>
       <p>
+        Technologies used: React.js, Node.js, JavaScript, HTML, CSS, GitHub,
+        Heroku
+      </p>
+      <p>
         Mobile and Desktop responsive React application of Conway's{" "}
         <a
           target="_blank"
@@ -22,8 +26,8 @@ const Project5 = () => {
         </a>
         .
       </p>
-      <p>Technologies used: React.js, Node.js, JavaScript, HTML, CSS</p>
-      <p>
+
+      <p id="herokuWarning">
         * Project deployed using Heroku, may take up to 30 seconds for the dyno
         to wake back up if loading for the first time{" "}
       </p>

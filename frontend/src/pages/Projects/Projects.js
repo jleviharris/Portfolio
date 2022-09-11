@@ -56,7 +56,7 @@ const Projects = () => {
             className="projectButton"
             onClick={() => navigate("/project3")}
           >
-            Portfolio Website
+            First Portfolio Website
             <img
               className="projectImg"
               src={require("../../components/Projects/imgProjects/OriginalPortfolio.png")}
@@ -70,7 +70,7 @@ const Projects = () => {
             className="projectButton"
             onClick={() => navigate("/project4")}
           >
-            Updated Portfolio with React
+            Current Personal Portfolio
             <img
               className="projectImg"
               src={require("../../components/Projects/imgProjects/CurrentPortfolio.png")}

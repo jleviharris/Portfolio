@@ -12,10 +12,16 @@ const Project4 = () => {
           <i className="fa-brands fa-github gitHubProjLink"></i>
         </a>
       </h1>
-      <img
+
+      <p>Technologies used: HTML, CSS, JavaScript, React.js, Node.js, GitHub</p>
+      <p>
+        Full redo of Personal portfolio site. Updated from a single page website
+        to a React application.
+      </p>
+      {/* <img
         className="projectImg"
         src={require("./imgProjects/CurrentPortfolio.png")}
-      />
+      /> */}
     </div>
   );
 };

@@ -234,6 +234,9 @@ nav a {
 .gitHubProjLink {
   font-size: 3rem;
 }
+#herokuWarning {
+  font-size: 2rem;
+}
 .contact {
   display: flex;
   flex-direction: column;
