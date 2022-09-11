@@ -7,7 +7,12 @@ const Project2 = () => {
       <button className="backButton" onClick={() => navigate("/projects")}>
         BACK
       </button>
-      <h1>Sk8 Status</h1>
+      <h1>
+        Sk8 Status{" "}
+        <a target="_blank" href="https://github.com/jleviharris/Capstone">
+          <i className="fa-brands fa-github gitHubProjLink"></i>
+        </a>
+      </h1>
       <p>
         Sk8 Status is a full stack web application that I developed during a 14
         day sprint for my capstone project while at devCodeCamp. The application

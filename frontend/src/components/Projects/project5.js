@@ -6,7 +6,12 @@ const Project5 = () => {
       <button className="backButton" onClick={() => navigate("/projects")}>
         BACK
       </button>
-      <h1>Conway's Game of Life</h1>
+      <h1>
+        Conway's Game of Life{" "}
+        <a target="_blank" href="https://github.com/jleviharris/lifeReactGame">
+          <i className="fa-brands fa-github gitHubProjLink"></i>
+        </a>
+      </h1>
       <p>
         Mobile and Desktop responsive React application of Conway's{" "}
         <a

@@ -7,7 +7,15 @@ const Project3 = () => {
       <button className="backButton" onClick={() => navigate("/projects")}>
         BACK
       </button>
-      <h1>Portfolio Website</h1>
+      <h1>
+        Portfolio Website{" "}
+        <a
+          target="_blank"
+          href="https://github.com/jleviharris/devCodeCampPortfolio"
+        >
+          <i className="fa-brands fa-github gitHubProjLink"></i>
+        </a>
+      </h1>
       <p>
         Mobile and desktop responsive portfolio website built using HTML, CSS,
         JavaScript and Github pages

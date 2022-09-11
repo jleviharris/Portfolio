@@ -15,14 +15,22 @@ const AboutMe = () => {
         />
       </div>
       <div className="about-me-text">
-        <div className="about-me-history">
+        {/* <div className="about-me-history">
           United States Marine Corps
           <i className="fa-solid fa-arrow-down"></i>
           Planet Fitness General Manager
           <i className="fa-solid fa-arrow-down"></i>
           Software Developer
+        </div> */}
+        <div className="about-me-para">
+          I'm Jonathan, a full stack web developer working in the MERN stack. My
+          experiance ranges from Combat Engineer in the Marine Corps to GM of a
+          franchise Planet Fitness and now to software developer. My coding
+          journey began in late 2021 with the discovery of freeCodeCamp and
+          codecademy. By Feb 2022 I was enrolled with the coding bootcamp
+          devCodeCamp and I had graduted by the end of May. Now I am searching
+          for a position where I can further grow and learn as a developer.{" "}
         </div>
-        <div></div>
         <div className="allIcons">
           <div className="iconsRow">
             <div className="singleTech">
