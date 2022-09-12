@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import Footer from "../Footer/Footer";
 const AboutMe = () => {
   const navigate = useNavigate();
   return (
@@ -77,6 +78,7 @@ const AboutMe = () => {
         </div>
       </div>
       <div></div>
+      <Footer />
     </div>
   );
 };
