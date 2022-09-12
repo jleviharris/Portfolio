@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
-const Project4 = () => {
+
+const OldPortfolio = () => {
   const navigate = useNavigate();
   return (
     <div className="projectContainer">
@@ -21,12 +22,8 @@ const Project4 = () => {
         Full redo of Personal portfolio site. Updated from a single page website
         to a React application.
       </p>
-      {/* <img
-        className="projectImg"
-        src={require("./imgProjects/CurrentPortfolio.png")}
-      /> */}
     </div>
   );
 };
 
-export default Project4;
+export default OldPortfolio;

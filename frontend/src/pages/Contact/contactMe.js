@@ -16,13 +16,10 @@ const ContactMe = () => {
       >
         <h2 className="contact-title">Contact Me</h2>
         <input type="hidden" name="_subject" value="Portfolio Email" />
-        {/* <label className="form-text">Name:</label> */}
         <br />
         <input type="text" name="name" placeholder="Name" required />
-        {/* <label className="form-text">Email:</label> */}
         <br />
         <input type="email" name="email" placeholder="Email Address" />
-        {/* <label className="form-text">Message:</label> */}
         <br />
         <textarea
           type="text"

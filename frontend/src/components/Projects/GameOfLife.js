@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-const Project5 = () => {
+const GameOfLife = () => {
   const navigate = useNavigate();
   return (
     <div className="projectContainer">
@@ -36,4 +36,4 @@ const Project5 = () => {
   );
 };
 
-export default Project5;
+export default GameOfLife;

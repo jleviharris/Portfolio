@@ -7,8 +7,6 @@ const Resume = () => {
     <div className="resume">
       <div className="resumePics">
         {" "}
-        {/* <img src={require("../Resume/Resume1.png")} />
-        <img src={require("../Resume/Resume2.png")} /> */}
         <button className="backButton" onClick={() => navigate("/")}>
           BACK
         </button>

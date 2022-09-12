@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
-const Project3 = () => {
+
+const OldPortfolio = () => {
   const navigate = useNavigate();
 
   return (
@@ -18,8 +19,6 @@ const Project3 = () => {
       </h1>
       <p>Technologies used: HTML, CSS, JavaScript, GitHub, GitHub Pages</p>
       <p>Mobile and desktop responsive portfolio website</p>
-
-      {/* <img className="projectImg" src={require("./imgProjects/OriginalPortfolio.png")} /> */}
       <iframe
         src="https://jleviharris.github.io/devCodeCampPortfolio/"
         title="description"
@@ -29,4 +28,4 @@ const Project3 = () => {
   );
 };
 
-export default Project3;
+export default OldPortfolio;

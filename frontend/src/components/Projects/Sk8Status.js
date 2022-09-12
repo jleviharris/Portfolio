@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
-const Project2 = () => {
+
+const Sk8Status = () => {
   const navigate = useNavigate();
 
   return (
@@ -23,7 +24,6 @@ const Project2 = () => {
         day sprint for my capstone project while at devCodeCamp. The application
         was designed for skateboarders to connect with one another.
       </p>
-
       <p>Application features include:</p>
       <ul>
         <li>
@@ -58,4 +58,4 @@ const Project2 = () => {
   );
 };
 
-export default Project2;
+export default Sk8Status;

@@ -13,7 +13,7 @@ const Projects = () => {
         <div className="singleProject">
           <button
             className="projectButton"
-            onClick={() => navigate("/project1")}
+            onClick={() => navigate("/AshesToVanity")}
           >
             Ashes to Vanity Website
             <img
@@ -27,7 +27,7 @@ const Projects = () => {
           {" "}
           <button
             className="projectButton"
-            onClick={() => navigate("/project2")}
+            onClick={() => navigate("/Sk8Status")}
           >
             Sk8 Status
             <img
@@ -40,7 +40,7 @@ const Projects = () => {
           {" "}
           <button
             className="projectButton"
-            onClick={() => navigate("/project5")}
+            onClick={() => navigate("/GameOfLife")}
           >
             Conway's Game of Life
             <img
@@ -54,7 +54,7 @@ const Projects = () => {
           {" "}
           <button
             className="projectButton"
-            onClick={() => navigate("/project3")}
+            onClick={() => navigate("/OldPortfolio")}
           >
             First Portfolio Website
             <img
@@ -68,7 +68,7 @@ const Projects = () => {
           {" "}
           <button
             className="projectButton"
-            onClick={() => navigate("/project4")}
+            onClick={() => navigate("/CurrentPortfolio")}
           >
             Current Personal Portfolio
             <img

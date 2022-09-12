@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-const Project1 = () => {
+const AshesToVanity = () => {
   const navigate = useNavigate();
   return (
     <div className="projectContainer">
@@ -16,14 +16,11 @@ const Project1 = () => {
         </a>
       </h1>
       <p>Technologies used: JavaScript, HTML, CSS, GitHub, Netlify</p>
-
       <p>
         Mobile and Desktop responsive website built for the band Ashes to
         Vanity. This was one of the first projects I started and Im still
         updating to this day.
       </p>
-
-      {/* <img className="projectImg" src={require("./imgProjects/AshesToVanity.png")} /> */}
       <iframe
         src="https://ashestovanity.netlify.app/"
         title="description"
@@ -33,4 +30,4 @@ const Project1 = () => {
   );
 };
 
-export default Project1;
+export default AshesToVanity;

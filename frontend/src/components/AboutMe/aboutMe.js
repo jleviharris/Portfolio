@@ -16,13 +16,6 @@ const AboutMe = () => {
         />
       </div>
       <div className="about-me-text">
-        {/* <div className="about-me-history">
-          United States Marine Corps
-          <i className="fa-solid fa-arrow-down"></i>
-          Planet Fitness General Manager
-          <i className="fa-solid fa-arrow-down"></i>
-          Software Developer
-        </div> */}
         <div className="about-me-para">
           I'm Jonathan, a full stack web developer working in the MERN stack. My
           experiance ranges from Combat Engineer in the Marine Corps to GM of a

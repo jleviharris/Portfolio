@@ -4,6 +4,13 @@ html {
   box-sizing: border-box;
   background-color: black;
 }
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Jura", sans-serif;
+  color: white;
+  font-weight: 300;
+}
 .homePageDiv {
   background-image: url("../src/components/BackgroundImgs/tobias-roder-bZSapOQA_OU-unsplash.jpg");
   background-size: cover;
@@ -17,34 +24,26 @@ html {
   font-size: 4rem;
   margin-left: 6rem;
   margin-top: 2rem;
-  /* font-family: "Staatliches", cursive; */
-  /* font-family: "Oxygen", sans-serif; */
-  /* font-family: "Secular One", sans-serif; */
   font-family: "Kanit", sans-serif;
 }
 .homePageDiv h2 {
   font-size: 3rem;
   margin-left: 6rem;
   margin-bottom: 1rem;
-  /* color: #c4b7b2; */
   color: white;
 }
-
 .container-0 {
   margin: 0 auto;
   max-width: 600px;
   overflow: auto;
   text-align: center;
 }
-
 .form {
   align-items: center;
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-end; */
   gap: 1rem;
 }
-
 .form input {
   display: block;
   width: 100%;
@@ -53,7 +52,6 @@ html {
   padding: 3px 7px;
   font-size: 17px;
 }
-
 .button-align {
   align-items: center;
 }
@@ -71,20 +69,10 @@ html {
 .bodyImg {
   background-color: black;
 }
-
-* {
-  box-sizing: border-box;
-  font-size: 62.5%;
-  font-family: "Jura", sans-serif;
-
-  color: white;
-  font-weight: 300;
-}
 .about-me-section {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* height: 100vh; */
 }
 .about-me-title {
   font-size: x-large;
@@ -97,7 +85,6 @@ html {
   src: url(../src/components/AboutMe/20190119_142756.jpg);
   margin: 4rem;
 }
-
 .about-me-header {
   display: flex;
   flex-direction: column;
@@ -146,7 +133,6 @@ html {
 }
 .nav li {
   list-style: none;
-  /* display: inline; */
   margin-right: 1rem;
 }
 #navbar {
@@ -155,13 +141,6 @@ html {
   text-align: right;
   width: 100%;
 }
-
-/* .nav li :hover {
-  color: rgba(170, 235, 243, 0.952);
-  background-color: transparent;
-  transition: background-color 0.15s, font-size 0.15s;
-  font-size: 4rem;
-} */
 nav a {
   color: black;
   text-decoration: none;
@@ -194,14 +173,6 @@ nav a {
   text-align: center;
 }
 .footer {
-  /* 
-  margin-top: auto;
-  /* position: absolute; */
-  /* left: 0;
-  bottom: 0;
-  right: 0;
-  position: fixed;
-  bottom: 0; */
   width: 100%;
   font-size: 5rem;
   text-align: center;
@@ -219,7 +190,6 @@ nav a {
 .footer li {
   display: inline;
 }
-
 .footer a {
   text-decoration: none;
   color: white;
@@ -234,14 +204,11 @@ nav a {
 .gitHubProjLink {
   font-size: 3rem;
 }
-
 .contact {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
-  /* background-image: url("../src/components/BackgroundImgs/good-free-photos-bfempytLlJI-unsplash.jpg"); */
-  /* background-size: cover; */
   background-color: black;
 }
 .contact-title {
@@ -255,7 +222,6 @@ nav a {
   height: auto;
   max-width: 40rem;
 }
-
 .resumePics {
   display: flex;
   flex-direction: column;
@@ -291,7 +257,6 @@ select {
 }
 #message {
   width: 25%;
-
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -353,7 +318,6 @@ textarea {
   height: 500px;
   max-width: 100%;
 }
-
 .singleProject {
   display: flex;
   flex-direction: column;
@@ -381,20 +345,15 @@ textarea {
   flex-direction: column;
   background-color: black;
 }
-
 .projectLists {
   display: flex;
   flex-direction: column;
 }
-
 .projectContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   margin: 2.5rem;
-  /* background: #176e92ba; */
-  /* background: #4e4b4bba; */
   background: black;
   padding: 1rem;
   border: 1px solid black;
@@ -446,7 +405,6 @@ textarea {
     background-size: cover;
     background-color: black;
   }
-
   element.style {
     width: 100%;
   }
@@ -506,7 +464,6 @@ textarea {
   }
   .websiteDisplay {
     display: none;
-    /* max-width: 90%; */
   }
   .form {
     margin-top: 0;
@@ -534,6 +491,7 @@ textarea {
     text-align: center;
   }
 }
+
 @media only screen and (min-width: 1000px) {
   .body {
     width: 100vw;
@@ -543,7 +501,6 @@ textarea {
     background-size: cover;
     background-color: black;
   }
-
   .about-me-title {
     font-size: 5rem;
   }
@@ -566,7 +523,6 @@ textarea {
     font-weight: 400;
     font-size: 3rem;
   }
-
   .contact-title {
     font-size: 6rem;
     margin-bottom: 0;

@@ -2,49 +2,39 @@
   font-size: 3.5rem;
   list-style: none;
 }
-
 .navBar {
   display: flex;
   justify-content: flex-end;
   color: black;
   padding: 0rem 5rem 0rem 2rem;
 }
-
 .navBar ul {
   display: flex;
   flex-direction: column;
   padding: 1em;
 }
-
 .navBar ul li {
   padding: 1rem;
 }
-
 .navBar button {
   background: rgba(246, 246, 247, 0);
   border: none;
-  /* color: white; */
   padding: 0.4rem 0.5rem;
   padding: 0px 20px;
   color: #c4b7b2;
 }
 
 .navBar button:hover {
-  /* background: steelblue;
-  color: rgb(255, 255, 255); */
-  /* background: white; */
   background: #c4b7b2;
   color: black;
   cursor: pointer;
   border-radius: 12px;
 }
-
 .navBar button:focus {
   background: steelblue;
   color: rgb(255, 255, 255);
   border-radius: 12px;
 }
-
 .brand {
   cursor: pointer;
   font-size: 2rem;
