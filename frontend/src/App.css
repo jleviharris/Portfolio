@@ -234,9 +234,7 @@ nav a {
 .gitHubProjLink {
   font-size: 3rem;
 }
-#herokuWarning {
-  font-size: 2rem;
-}
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -369,7 +367,7 @@ textarea {
   width: 8rem;
   height: 3rem;
   font-size: 2rem;
-  margin-right: 3rem;
+  margin-right: 1.5rem;
   background-color: rgba(128, 126, 117, 0.795);
   color: white;
   border-radius: 2rem;
@@ -484,6 +482,7 @@ textarea {
   .projectsMainCard {
     flex-direction: column;
     max-width: 100vw;
+    align-items: center;
   }
   .projectImg {
     max-width: 100%;
@@ -503,7 +502,7 @@ textarea {
     margin: 2rem;
   }
   .backButton {
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   .websiteDisplay {
     display: none;
@@ -527,6 +526,12 @@ textarea {
   .mobileResume {
     font-size: 2rem;
     margin-top: 2rem;
+  }
+  .projectContainer {
+    margin: 1rem;
+  }
+  .projectContainer h1 {
+    text-align: center;
   }
 }
 @media only screen and (min-width: 1000px) {
