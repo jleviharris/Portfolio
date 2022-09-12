@@ -395,6 +395,9 @@ textarea {
   background-color: white;
   color: black;
 }
+.websiteLinks {
+  display: none;
+}
 
 @media only screen and (max-width: 600px) {
   .body {
@@ -486,9 +489,14 @@ textarea {
   }
   .projectContainer {
     margin: 1rem;
+    text-align: center;
   }
   .projectContainer h1 {
     text-align: center;
+  }
+  .websiteLinks {
+    display: flex;
+    font-size: 4rem;
   }
 }
 

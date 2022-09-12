@@ -14,15 +14,15 @@ const GameOfLife = () => {
       </h1>
       <p>
         Technologies used: React.js, Node.js, JavaScript, HTML, CSS, GitHub,
-        Heroku
+        Netlify
       </p>
       <p>
-        Mobile and Desktop responsive React application of Conway's{" "}
+        Mobile and Desktop responsive React application of{" "}
         <a
           target="_blank"
           href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
         >
-          Game of Life
+          Conway's Game of Life
         </a>
         .
       </p>
@@ -32,6 +32,13 @@ const GameOfLife = () => {
         title="description"
         className="websiteDisplay"
       ></iframe>
+      <a
+        className="websiteLinks"
+        target="_blank"
+        href="https://devjonharrisgameoflife.netlify.app/"
+      >
+        Visit site here
+      </a>
     </div>
   );
 };
