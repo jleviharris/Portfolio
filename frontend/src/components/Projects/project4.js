@@ -13,7 +13,10 @@ const Project4 = () => {
         </a>
       </h1>
 
-      <p>Technologies used: HTML, CSS, JavaScript, React.js, Node.js, GitHub</p>
+      <p>
+        Technologies used: HTML, CSS, JavaScript, React.js, Node.js, GitHub,
+        Netlify
+      </p>
       <p>
         Full redo of Personal portfolio site. Updated from a single page website
         to a React application.
