@@ -15,6 +15,7 @@ import Sk8Status from "./components/Projects/Sk8Status";
 import GameOfLife from "./components/Projects/GameOfLife";
 import OldPortfolio from "./components/Projects/OldPortfolio";
 import CurrentPortfolio from "./components/Projects/CurrentPortfolio";
+import DaysOfJavaScript from "./components/Projects/100DaysOfJavaScript";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/OldPortfolio" element={<OldPortfolio />} />
         <Route path="/CurrentPortfolio" element={<CurrentPortfolio />} />
         <Route path="/GameOfLife" element={<GameOfLife />} />
+        <Route path="/100DaysOfJavaScript" element={<DaysOfJavaScript />} />
       </Routes>
     </div>
   );

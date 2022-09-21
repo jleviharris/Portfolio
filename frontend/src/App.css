@@ -362,6 +362,9 @@ textarea {
 .projectContainer h1 {
   font-size: 5rem;
 }
+.projectContainer h2 {
+  font-size: 3rem;
+}
 .projectContainer p {
   font-size: 3rem;
 }
@@ -369,6 +372,15 @@ textarea {
   list-style: none;
   font-size: 2rem;
   margin-bottom: 1rem;
+}
+.projectContainer a {
+  font-size: 3rem;
+}
+.daysContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
 }
 .projectImg {
   max-height: 75vh;
@@ -426,6 +438,7 @@ textarea {
     font-size: 3rem;
     padding: 0;
     margin: auto;
+    margin-right: 1rem;
     text-align: end;
   }
   .iconsRow {
@@ -497,6 +510,10 @@ textarea {
   .websiteLinks {
     display: flex;
     font-size: 4rem;
+  }
+  .homePageDiv {
+    background: url("../src/components/BackgroundImgs/adrian-regeci-DduZa62Shq0-unsplash.jpg");
+    background-size: cover;
   }
 }
 

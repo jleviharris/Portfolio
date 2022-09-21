@@ -11,18 +11,31 @@ const Projects = () => {
       </button>
       <div className="projectsMainCard">
         <div className="singleProject">
+          {" "}
           <button
             className="projectButton"
-            onClick={() => navigate("/AshesToVanity")}
+            onClick={() => navigate("/GameOfLife")}
           >
-            Ashes to Vanity Website
+            Conway's Game of Life
             <img
               className="projectImg"
-              src={require("../../components/Projects/imgProjects/AshesToVanity.png")}
+              src={require("../../components/Projects/imgProjects/GameOfLife.png")}
             />
           </button>
         </div>
-
+        <div className="singleProject">
+          {" "}
+          <button
+            className="projectButton"
+            onClick={() => navigate("/100DaysOfJavaScript")}
+          >
+            100 Days Of JavaScript
+            <img
+              className="projectImg"
+              src={require("../../components/Projects/imgProjects/javascript.png")}
+            />
+          </button>
+        </div>
         <div className="singleProject">
           {" "}
           <button
@@ -37,15 +50,14 @@ const Projects = () => {
           </button>
         </div>
         <div className="singleProject">
-          {" "}
           <button
             className="projectButton"
-            onClick={() => navigate("/GameOfLife")}
+            onClick={() => navigate("/AshesToVanity")}
           >
-            Conway's Game of Life
+            Ashes to Vanity Website
             <img
               className="projectImg"
-              src={require("../../components/Projects/imgProjects/GameOfLife.png")}
+              src={require("../../components/Projects/imgProjects/AshesToVanity.png")}
             />
           </button>
         </div>
