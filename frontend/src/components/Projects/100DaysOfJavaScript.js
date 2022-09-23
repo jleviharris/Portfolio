@@ -127,7 +127,22 @@ const DaysOfJavaScript = () => {
             <i className="fa-brands fa-github gitHubProjLink"></i>
           </a>
         </h2>
-        <h2>Day 8 - </h2>
+        <h2>
+          Day 8 -{" "}
+          <a
+            target="_blank"
+            href="https://devjonharrisdrivedwnldlinkgen.netlify.app/"
+          >
+            Google Drive Download Link Generator
+          </a>{" "}
+          <a
+            target="_blank"
+            href="https://github.com/jleviharris/googleDriveDownloadLinkDay8.git"
+          >
+            <i className="fa-brands fa-github gitHubProjLink"></i>
+          </a>
+        </h2>
+
         <h2>Day 9 - </h2>
         <h2>Day 10 - </h2>
         <h2>Day 11 - </h2>
