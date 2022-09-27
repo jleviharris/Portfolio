@@ -157,8 +157,22 @@ const DaysOfJavaScript = () => {
             <i className="fa-brands fa-github gitHubProjLink"></i>
           </a>
         </h2>
+        <h2>
+          Day 10 -{" "}
+          <a
+            target="_blank"
+            href="https://devjonharrisinternetconnectionstatus.netlify.app/"
+          >
+            Internet Connection Checker
+          </a>{" "}
+          <a
+            target="_blank"
+            href="https://github.com/jleviharris/internetConnectionStatusDay10.git"
+          >
+            <i className="fa-brands fa-github gitHubProjLink"></i>
+          </a>
+        </h2>
 
-        <h2>Day 10 - </h2>
         <h2>Day 11 - </h2>
         <h2>Day 12 - </h2>
         <h2>Day 13 - </h2>
