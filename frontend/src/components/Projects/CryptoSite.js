@@ -17,7 +17,8 @@ const CryptoSite = () => {
         Netlify
       </p>
       <p>
-        Mobile and Desktop responsive React application connecting to Coin Geiko api to display cyrpto coins
+        Mobile and Desktop responsive React application connecting to Coin Geiko
+        api to display cyrpto coins
       </p>
 
       <iframe
@@ -28,7 +29,7 @@ const CryptoSite = () => {
       <a
         className="websiteLinks"
         target="_blank"
-        href="https://devjonharrisgameoflife.netlify.app/"
+        href="https://devjonharriscryptosite.netlify.app/"
       >
         Visit site here
       </a>
