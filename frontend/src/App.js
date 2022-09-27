@@ -16,6 +16,7 @@ import GameOfLife from "./components/Projects/GameOfLife";
 import OldPortfolio from "./components/Projects/OldPortfolio";
 import CurrentPortfolio from "./components/Projects/CurrentPortfolio";
 import DaysOfJavaScript from "./components/Projects/100DaysOfJavaScript";
+import CryptoSite from "./components/Projects/CryptoSite";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/CurrentPortfolio" element={<CurrentPortfolio />} />
         <Route path="/GameOfLife" element={<GameOfLife />} />
         <Route path="/100DaysOfJavaScript" element={<DaysOfJavaScript />} />
+        <Route path="/CryptoSite" element={<CryptoSite />} />
       </Routes>
     </div>
   );

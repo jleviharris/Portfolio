@@ -27,6 +27,19 @@ const Projects = () => {
           {" "}
           <button
             className="projectButton"
+            onClick={() => navigate("/CryptoSite")}
+          >
+            Crypto Site
+            <img
+              className="projectImg"
+              src={require("../../components/Projects/imgProjects/CryptoSite.png")}
+            />
+          </button>
+        </div>
+        <div className="singleProject">
+          {" "}
+          <button
+            className="projectButton"
             onClick={() => navigate("/100DaysOfJavaScript")}
           >
             100 Days Of JavaScript
