@@ -515,6 +515,15 @@ textarea {
     background: url("../src/components/BackgroundImgs/adrian-regeci-DduZa62Shq0-unsplash.jpg");
     background-size: cover;
   }
+  .daysContainer h2 {
+    font-size: 2rem;
+  }
+  .daysContainer a {
+    font-size: 1.5rem;
+  }
+  .daysContainer i {
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
