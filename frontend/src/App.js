@@ -17,6 +17,7 @@ import OldPortfolio from "./components/Projects/OldPortfolio";
 import CurrentPortfolio from "./components/Projects/CurrentPortfolio";
 import DaysOfJavaScript from "./components/Projects/100DaysOfJavaScript";
 import CryptoSite from "./components/Projects/CryptoSite";
+import TicTacToe from "./components/Projects/TicTacToe";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="/GameOfLife" element={<GameOfLife />} />
         <Route path="/100DaysOfJavaScript" element={<DaysOfJavaScript />} />
         <Route path="/CryptoSite" element={<CryptoSite />} />
+        <Route path="/TicTacToe" element={<TicTacToe />} />
       </Routes>
     </div>
   );

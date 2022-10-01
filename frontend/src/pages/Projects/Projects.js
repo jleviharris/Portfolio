@@ -63,6 +63,19 @@ const Projects = () => {
           </button>
         </div>
         <div className="singleProject">
+          {" "}
+          <button
+            className="projectButton"
+            onClick={() => navigate("/TicTacToe")}
+          >
+            Tic Tac Toe
+            <img
+              className="projectImg"
+              src={require("../../components/Projects/imgProjects/tictactoe.png")}
+            />
+          </button>
+        </div>
+        <div className="singleProject">
           <button
             className="projectButton"
             onClick={() => navigate("/AshesToVanity")}
