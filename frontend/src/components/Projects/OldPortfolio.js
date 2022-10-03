@@ -17,7 +17,24 @@ const OldPortfolio = () => {
           <i className="fa-brands fa-github gitHubProjLink"></i>
         </a>
       </h1>
-      <p>Technologies used: HTML, CSS, JavaScript, GitHub, GitHub Pages</p>
+      <div className="projectIcons">
+        <div className="singleTech">
+          <i className="fa-brands fa-html5 icons"></i>HTML
+        </div>
+        <div className="singleTech">
+          <i className="fa-brands fa-css3-alt icons"></i>CSS
+        </div>{" "}
+        <div className="singleTech">
+          <i className="fa-brands fa-square-js icons"></i>JavaScript
+        </div>
+        <div className="singleTech">
+          <i className="fa-brands fa-github icons"></i> Github
+        </div>
+        <div className="singleTech">
+          <iconify-icon icon="simple-icons:netlify"></iconify-icon>
+          Netlify
+        </div>
+      </div>
       <p>Mobile and desktop responsive portfolio website</p>
       <iframe
         src="https://jleviharris.github.io/devCodeCampPortfolio/"

@@ -15,7 +15,24 @@ const AshesToVanity = () => {
           <i className="fa-brands fa-github gitHubProjLink"></i>
         </a>
       </h1>
-      <p>Technologies used: JavaScript, HTML, CSS, GitHub, Netlify</p>
+      <div className="projectIcons">
+        <div className="singleTech">
+          <i className="fa-brands fa-html5 icons"></i>HTML
+        </div>
+        <div className="singleTech">
+          <i className="fa-brands fa-css3-alt icons"></i>CSS
+        </div>{" "}
+        <div className="singleTech">
+          <i className="fa-brands fa-square-js icons"></i>JavaScript
+        </div>
+        <div className="singleTech">
+          <i className="fa-brands fa-github icons"></i> Github
+        </div>
+        <div className="singleTech">
+          <iconify-icon icon="simple-icons:netlify"></iconify-icon>
+          Netlify
+        </div>
+      </div>
       <p>
         Mobile and Desktop responsive website built for the band Ashes to
         Vanity. This was one of the first projects I started and Im still

@@ -101,16 +101,51 @@ html {
   flex-direction: row;
   align-items: center;
 }
+.projectIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  overflow-x: scroll;
+  justify-content: center;
+}
+.sk8Icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  overflow-x: scroll;
+  justify-content: flex-start;
+}
 .iconsRow {
   display: flex;
   flex-direction: row;
 }
+
 .singleTech {
   display: flex;
   flex-direction: column;
   font-size: 1.5rem;
   margin: 3rem;
   align-items: center;
+}
+.sk8SingleTech {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  margin: 3rem;
+  align-items: center;
+}
+.sk8SingleTech i {
+  font-size: 5.5rem;
+}
+.singleTech iconify-icon {
+  font-size: 5.5rem;
+  margin: 1rem;
+}
+.sk8SingleTech iconify-icon {
+  font-size: 5.5rem;
+  margin: 1rem;
 }
 .middleTech {
   display: flex;
@@ -441,6 +476,7 @@ textarea {
     margin-right: 1rem;
     text-align: end;
   }
+
   .iconsRow {
     display: flex;
     flex-direction: column;
@@ -471,6 +507,39 @@ textarea {
     margin: 2rem;
     align-items: center;
   }
+  .singleTech i {
+    font-size: 3.5rem;
+  }
+  .singleTech iconify-icon {
+    font-size: 3.5rem;
+  }
+
+  .projectIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    overflow-x: scroll;
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+
+  .sk8SingleTech {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    margin: 3rem;
+    align-items: center;
+  }
+  .sk8SingleTech i {
+    font-size: 3.5rem;
+  }
+
+  .sk8SingleTech iconify-icon {
+    font-size: 3.5rem;
+    margin: 1rem;
+  }
+
   .middleTech {
     font-size: 2rem;
     margin: 2rem;

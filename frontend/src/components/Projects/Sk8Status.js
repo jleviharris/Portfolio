@@ -14,11 +14,56 @@ const Sk8Status = () => {
           <i className="fa-brands fa-github gitHubProjLink"></i>
         </a>
       </h1>
-      <p>
-        Technologies used: JavaScript, React.js, Express.js, Node.js, MongoDB,
-        HTML, CSS, Mongoose, Postman, Git, Google Maps API, Axios, JSON Web
-        Token, Bootstrap
-      </p>
+      <div className="sk8Icons">
+        <div className="sk8SingleTech">
+          <i className="fa-brands fa-html5 icons"></i>HTML
+        </div>
+        <div className="sk8SingleTech">
+          <i className="fa-brands fa-css3-alt icons"></i>CSS
+        </div>{" "}
+        <div className="sk8SingleTech">
+          <i className="fa-brands fa-square-js icons"></i>JavaScript
+        </div>
+        <div className="sk8SingleTech">
+          <iconify-icon
+            icon="simple-icons:mongodb"
+            class="icons"
+          ></iconify-icon>
+          MongoDB
+        </div>
+        <div className="sk8SingleTech">
+          <iconify-icon
+            icon="simple-icons:express"
+            class="icons"
+          ></iconify-icon>
+          Express.js
+        </div>
+        <div className="sk8SingleTech">
+          <i className="fa-brands fa-react icons"></i>React.js
+        </div>
+        <div className="sk8SingleTech">
+          <i className="fa-brands fa-node icons"></i>Node.js
+        </div>
+        <div className="sk8SingleTech">
+          <iconify-icon icon="cib:postman"></iconify-icon>Postman
+        </div>
+        <div className="sk8SingleTech">
+          <iconify-icon icon="simple-icons:axios"></iconify-icon>Axios
+        </div>
+        <div className="sk8SingleTech">
+          <iconify-icon icon="cib:json"></iconify-icon>JSON Web Token{" "}
+        </div>
+        <div className="sk8SingleTech">
+          <iconify-icon icon="mdi:google-maps"></iconify-icon>Google Maps Api
+        </div>
+        <div className="sk8SingleTech">
+          <iconify-icon icon="akar-icons:bootstrap-fill"></iconify-icon>
+          Bootstrap
+        </div>
+        <div className="sk8SingleTech">
+          <i className="fa-brands fa-github icons"></i> Github
+        </div>
+      </div>
       <p>
         Sk8 Status is a full stack web application that I developed during a 14
         day sprint for my capstone project while at devCodeCamp. The application
