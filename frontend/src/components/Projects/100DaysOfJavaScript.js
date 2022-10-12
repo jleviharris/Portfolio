@@ -238,8 +238,22 @@ const DaysOfJavaScript = () => {
             <i className="fa-brands fa-github gitHubProjLink"></i>
           </a>
         </h2>
+        <h2>
+          Day 14 -{" "}
+          <a
+            target="_blank"
+            href="https://devjonharris-random-quote-gen.netlify.app/"
+          >
+            Random Quote Generator
+          </a>{" "}
+          <a
+            target="_blank"
+            href="https://github.com/jleviharris/randomQuoteGenDay14.git"
+          >
+            <i className="fa-brands fa-github gitHubProjLink"></i>
+          </a>
+        </h2>
 
-        <h2>Day 14 - </h2>
         <h2>Day 15 - </h2>
         <h2>Day 16 - </h2>
         <h2>Day 17- </h2>
