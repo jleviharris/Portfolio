@@ -253,8 +253,22 @@ const DaysOfJavaScript = () => {
             <i className="fa-brands fa-github gitHubProjLink"></i>
           </a>
         </h2>
+        <h2>
+          Day 15 -{" "}
+          <a
+            target="_blank"
+            href="https://devjonharris-weather-app.netlify.app/"
+          >
+            Weather App
+          </a>{" "}
+          <a
+            target="_blank"
+            href="https://github.com/jleviharris/weatherAppDay15.git"
+          >
+            <i className="fa-brands fa-github gitHubProjLink"></i>
+          </a>
+        </h2>
 
-        <h2>Day 15 - </h2>
         <h2>Day 16 - </h2>
         <h2>Day 17- </h2>
         <h2>Day 18 - </h2>
