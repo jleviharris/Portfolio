@@ -624,6 +624,9 @@ textarea {
   .daysContainer i {
     font-size: 1.5rem;
   }
+  .certificatesPage {
+    align-items: center;
+  }
   .certContainer {
     flex-direction: column;
     align-items: flex-start;
