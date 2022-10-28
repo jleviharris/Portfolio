@@ -6,6 +6,7 @@ import "./App.css";
 import HomePage from "./pages/HomePage/HomePage";
 import Resume from "./pages/Resume/Resume";
 import Projects from "./pages/Projects/Projects";
+import Certificates from "./pages/Certificates/Certificates";
 
 // Component Imports
 import AboutMe from "./components/AboutMe/aboutMe";
@@ -36,6 +37,7 @@ function App() {
         <Route path="/100DaysOfJavaScript" element={<DaysOfJavaScript />} />
         <Route path="/CryptoSite" element={<CryptoSite />} />
         <Route path="/TicTacToe" element={<TicTacToe />} />
+        <Route path="/Certificates" element={<Certificates />} />
       </Routes>
     </div>
   );
