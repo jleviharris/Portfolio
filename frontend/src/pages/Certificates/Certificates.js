@@ -11,6 +11,22 @@ const Certificates = () => {
       </button>
       <div className="certContainer">
         {" "}
+        <img src={require("../Certificates/Imgs/devCodeCamp.png")} />
+        <div className="certTitles">
+          <h1>devCodeCamp</h1>
+          <p>Full Stack Web Development </p>
+        </div>
+      </div>
+      <div className="certContainer">
+        {" "}
+        <img src={require("../Certificates/Imgs/Python3.png")} />
+        <div className="certTitles">
+          <h1>Codecademy</h1>
+          <p>Python 3</p>
+        </div>
+      </div>
+      <div className="certContainer">
+        {" "}
         <img src={require("../Certificates/Imgs/codingInterview.jpeg")} />
         <div className="certTitles">
           <h1>Udemy</h1>
@@ -65,7 +81,7 @@ const Certificates = () => {
         <img src={require("../Certificates/Imgs/html.png")} />
         <div className="certTitles">
           <h1>Codecademy</h1>
-          <p>Learn HTML COurse</p>
+          <p>Learn HTML Course</p>
         </div>
       </div>
       <div className="certContainer">
