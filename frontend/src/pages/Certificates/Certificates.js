@@ -27,6 +27,14 @@ const Certificates = () => {
       </div>
       <div className="certContainer">
         {" "}
+        <img src={require("../Certificates/Imgs/BlockChain.png")} />
+        <div className="certTitles">
+          <h1>Codecademy</h1>
+          <p>Learn the Basics of Blockchain with Python</p>
+        </div>
+      </div>
+      <div className="certContainer">
+        {" "}
         <img src={require("../Certificates/Imgs/codingInterview.jpeg")} />
         <div className="certTitles">
           <h1>Udemy</h1>
