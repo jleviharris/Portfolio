@@ -370,6 +370,7 @@ textarea {
   background-color: rgba(128, 126, 117, 0.795);
   color: white;
   border-radius: 2rem;
+  margin-top: 2rem;
 }
 .backButton:hover {
   background-color: white;
@@ -450,6 +451,32 @@ textarea {
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
+  margin-bottom: 2rem;
+}
+.certificatesPageInside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.certsHolder {
+  display: flex;
+  flex-direction: column;
+}
+.certificatesPageInside h1 {
+  align-self: start;
+  font-size: 4rem;
+  color: white;
+  margin-left: 2rem;
+}
+.certificatesPageInside button {
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+}
+.material-symbols-outlined {
+  color: black;
+  font-size: 2.5rem;
 }
 .certContainer {
   display: flex;
@@ -625,7 +652,8 @@ textarea {
     font-size: 1.5rem;
   }
   .certificatesPage {
-    align-items: center;
+    align-items: flex-start;
+    padding-left: 2rem;
   }
   .certContainer {
     flex-direction: column;
@@ -636,6 +664,17 @@ textarea {
   .certTitles {
     justify-content: flex-start;
     margin-left: 0;
+  }
+  .certificatesPageInside h1 {
+    font-size: 2rem;
+    margin-left: 0.5rem;
+  }
+  .certificatesPageInside button {
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+  }
+  .material-symbols-outlined {
+    font-size: 1.5rem;
   }
 }
 
