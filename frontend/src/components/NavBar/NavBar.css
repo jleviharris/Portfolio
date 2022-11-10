@@ -1,12 +1,12 @@
 .navBar li {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   list-style: none;
 }
 .navBar {
   display: flex;
   justify-content: flex-end;
   color: black;
-  padding: 0rem 5rem 0rem 2rem;
+  padding: 15rem 5rem 0rem 2rem;
 }
 .navBar ul {
   display: flex;
