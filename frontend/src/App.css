@@ -12,13 +12,14 @@ html {
   font-weight: 300;
 }
 .homePageDiv {
-  background-image: url("../src/components/BackgroundImgs/tobias-roder-bZSapOQA_OU-unsplash.jpg");
+  background-image: linear-gradient(to bottom, #000000, #333333);
   background-size: cover;
   height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .homePageDiv h1 {
   font-size: 4rem;
@@ -70,6 +71,7 @@ html {
   background-color: black;
 }
 .about-me-section {
+
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -424,24 +426,24 @@ textarea {
   padding: 1rem;
 }
 .projectButton {
-  border: 1px solid black;
+ 
   font-size: 2rem;
   border-radius: 25px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  background-color: #66645d;
-  color: white;
+  background-image: linear-gradient(to bottom, #66645d, #43403a);
+  color: black; /* Text color initially black */
   padding: 1rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
+
 .projectButton:hover {
-  border: 1px solid black;
-  border-radius: 25px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white; /* Text color changes to white on hover */
+  border-color: white;
 }
 .websiteLinks {
   display: none;
