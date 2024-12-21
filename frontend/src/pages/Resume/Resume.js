@@ -23,8 +23,8 @@ const Resume = () => {
         >
           Click here to download
         </a>
-        <img className="resumePictures" src={require("../Resume/resumePic1.jpg")} />
-        <img className="resumePictures" src={require("../Resume/resumePic2.jpg")} />
+        <img className="resumePictures" src={require("../Resume/resumePic1.png")} />
+        <img className="resumePictures" src={require("../Resume/resumePic2.png")} />
       </div>
     </div>
   );
